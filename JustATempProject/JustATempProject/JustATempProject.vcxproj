@@ -126,10 +126,13 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="ObjectFactory.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="TestLevel0.cpp" />
+    <ClCompile Include="TestLevel1.cpp" />
     <ClCompile Include="Time.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Vector3.cpp" />
@@ -137,6 +140,8 @@
   <ItemGroup>
     <ClInclude Include="Box.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelManager.h" />
     <ClInclude Include="ObjectFactory.h" />
     <ClInclude Include="Objects.h" />
     <ClInclude Include="Part.h" />
@@ -144,6 +149,8 @@
     <ClInclude Include="Parts.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="TestLevel0.h" />
+    <ClInclude Include="TestLevel1.h" />
     <ClInclude Include="Time.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Vector3.h" />

@@ -19,6 +19,7 @@ public:
 	static GameObject* CreateGameObject(std::string name);
 	static void AddGameObject(GameObject* gameobject);
 	static bool TryDestroyGameObject(GameObject* gameobject);
+	static void DestroyAllGameObjects();
 };
 
 

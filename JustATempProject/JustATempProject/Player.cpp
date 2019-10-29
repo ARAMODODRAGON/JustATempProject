@@ -10,21 +10,21 @@ int Player::Init() {
 	box = CreatePart<Box>();
 
 	rb->acceleration.Y = -9.8f;
-	return 0;
+	return GameObject::Init();
 }
 
 int Player::Exit() {
-	return 0;
+	return GameObject::Exit();
 }
 
 void Player::Update(const float delta) {
 	GameObject::Update(delta);
 	timer += delta;
 
-	if(timer > 0.1f) {
-		timer -= 0.1f;
+	if(timer > 0.2f) {
+		timer -= 0.2f;
 		Vector3 pos = GetTransform()->position;
-		printf("{%f, %f, %f}\n", pos.X, pos.Y, pos.Z);
+		printf("[Player pos]: {%f, %f, %f}\n", pos.X, pos.Y, pos.Z);
 	}
 }
 

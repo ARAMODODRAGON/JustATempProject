@@ -14,9 +14,9 @@ public:
 	Vector3 velocity;
 	Vector3 acceleration;
 
-	virtual int Init();
-	virtual int Exit();
-	virtual void Update(const float delta);
+	virtual int Init() override;
+	virtual int Exit() override;
+	virtual void Update(const float delta) override;
 };
 
 

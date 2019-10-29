@@ -3,8 +3,11 @@
 
 class Game {
 private:
+	static Game* Singleton;
+	bool rungame;
 	class Time* time;
 	class ObjectFactory* objectFactory;
+	class LevelManager* levelManager;
 public:
 	Game();
 	~Game();
@@ -13,6 +16,7 @@ public:
 	int Exit();
 	void Run();
 
+	static void ExitGame();
 };
 
 

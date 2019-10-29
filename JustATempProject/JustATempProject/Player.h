@@ -11,10 +11,10 @@ private:
 public:
 	Player(std::string name);
 
-	int Init();
-	int Exit();
-	void Update(const float delta);
-	void Render();
+	int Init() override;
+	int Exit() override;
+	void Update(const float delta) override;
+	void Render() override;
 };
 
 

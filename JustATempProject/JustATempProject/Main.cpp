@@ -1,4 +1,5 @@
 #include "Game.h"
+#include <stdio.h>
 
 int main() {
 	
@@ -26,5 +27,7 @@ int main() {
 
 	// end
 	delete game, game = nullptr;
+
+	getchar();
 	return 0;
 }
